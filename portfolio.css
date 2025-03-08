@@ -1,0 +1,322 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu-btn {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Home Section Styles */
+.home {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+.home-content {
+  text-align: center;
+}
+
+.text-1, .text-2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.text-3 {
+  font-size: 30px;
+  color: #ff4500; /* Orange color */
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #ff4500; /* Orange color on hover */
+}
+
+/* Projects Section Styles */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.project1,
+.project2 {
+  flex: 1; /* Each project takes about 33.33% width with some margin */
+  margin-bottom: 0 20px;
+  gap: 10px;
+}
+
+.project1 img,
+.project2 img {
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.project1 a,
+.project2 a {
+  text-decoration: none;
+  color: #e7e6e6;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Additional styling for better separation */
+.project1, .project2 {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  flex-basis: 25%;
+  flex-grow: initial;
+  margin-bottom: 30px;
+}
+
+.project1 {
+  background-color: #f5f5f5;
+}
+
+.project2 {
+  background-color: #f5f5f5;
+}
+
+/* About Section Styles */
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+.column.left img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 390px;
+  margin-top: -250px;
+}
+
+.column.right {
+  flex: 1;
+  margin: 10px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.column.right p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.column.right{
+  margin-right: 420px;
+  margin-top: 250px;
+}
+.column.right a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.column.right a:hover {
+  background-color: #ff4500; /* Orange color on hover */
+}
+
+
+/* Skills Bar Styles */
+.skills-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.progress {
+  background-color: #555;
+  height: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #ff4500; /* Orange color */
+  height: 100%;
+  border-radius: 10px;
+}
+
+.skills-bar p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* Services Section Styles */
+.services {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+.small-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col-9 {
+  flex: 1;
+  text-align: center;
+  margin: 20px;
+}
+.col-9:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.services h2{
+  text-align: center;
+}
+/*Teams style*/
+.teams {
+  background-color: #f4f4f4; /* Set a background color for the Teams section */
+  padding: 20px 0; /* Add padding for spacing */
+}
+
+.max-width {
+  max-width: 1200px; /* Set a maximum width for content */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333; /* Set the title color */
+}
+
+.team-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-project, .team-collaboration {
+  width: 45%; /* Set the width of individual team sections */
+  margin-bottom: 20px; /* Add margin between team sections */
+  padding: 20px; /* Add padding to each team section */
+  background-color: #fff; /* Set a background color for each team section */
+  border-radius: 8px; /* Add rounded corners for a clean look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+/* Customize other styles based on your design preferences */
+.team-project h3, .team-collaboration h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #007bff; /* Set the heading color */
+}
+
+.team-project p, .team-collaboration p {
+  font-size: 1em;
+  color: #555; /* Set the text color */
+}
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-col-1 img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Social Media Links Styles */
+.footer-col-4 ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-col-4 h3{
+  margin-left: 260px;
+}
+.social-list-1 ion-icon {
+  font-size: 30px;
+}
+
+.copyright {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 230px;
+}
